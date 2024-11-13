@@ -1,0 +1,25 @@
+{% load django_browser_reload %}
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GitHub Codespaces ♥️ Django">
+    <meta name="author" content="GitHub Codespaces">
+    <meta name="generator" content="GitHub Codespaces">
+    <meta name="theme-color" content="#000000">
+    <title>{% block title %}{{ title }} | GitHub Codespaces ♥️ Django{% endblock %}</title>
+    
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+</head>
+
+<body>
+
+    <h1>Bem-vindo ao site do Bicalho e do Pipe</h1>
+    <h2>Ola, nova página!</h2>
+</body>
+
+</html>
